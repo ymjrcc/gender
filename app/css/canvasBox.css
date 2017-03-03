@@ -1,16 +1,10 @@
-.home__link-OsK9S{
-    height: 40px;
-    line-height: 40px;
-    padding: 20px;
-    font-size: 20px;
-    color: #999;
-}.canvasBox__canvasBox-OcjqV{
+.canvasBox{
     padding: 20px;
 }
-.canvasBox__canvasBox-OcjqV p{
+.canvasBox p{
     font-size: 16px;
 }
-.canvasBox__canvasBox-OcjqV input{
+.canvasBox input{
     width: 200px;
     height: 24px;
     padding-left: 10px;
@@ -18,7 +12,7 @@
     border-radius: 2px;
     margin-right: 10px;
 }
-.canvasBox__canvasBox-OcjqV button{
+.canvasBox button{
     height: 26px;
     width: 60px;
     border: 1px solid #70b544;
@@ -28,22 +22,22 @@
     cursor: pointer;
     outline: none;
 }
-.canvasBox__canvas-8ObeH{
+.canvas{
     margin-top: 50px;
     position: relative;
     max-width: 100%;
 }
-.canvasBox__footer-3AQl1{
+.footer{
     width: 1100px;
     max-width: 100%;
     font-size: 25px;
 }
-.canvasBox__footer-3AQl1 div:first-child{
+.footer div:first-child{
     float: left;
     color: #897fef;
     padding-left: 10px;
 }
-.canvasBox__footer-3AQl1 div:last-child{
+.footer div:last-child{
     float: right;
     color: #82c99d;
     padding-right: 10px;
