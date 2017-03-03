@@ -1,16 +1,16 @@
-.home__link-OsK9S{
-    height: 40px;
-    line-height: 40px;
-    padding: 20px;
-    font-size: 20px;
-    color: #999;
-}.canvasBox__canvasBox-OcjqV{
+.gender__gender-TPRr3{
     padding: 20px;
 }
-.canvasBox__canvasBox-OcjqV p{
-    font-size: 16px;
+.gender__title-129rX{
+    font-size: 24px;
+    margin: 0;
 }
-.canvasBox__canvasBox-OcjqV input{
+.gender__tip-184Pt{
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+.gender__input-2FpCT{
     width: 200px;
     height: 24px;
     padding-left: 10px;
@@ -18,7 +18,7 @@
     border-radius: 2px;
     margin-right: 10px;
 }
-.canvasBox__canvasBox-OcjqV button{
+.gender__submit-FgfGx{
     height: 26px;
     width: 60px;
     border: 1px solid #70b544;
@@ -28,22 +28,24 @@
     cursor: pointer;
     outline: none;
 }
-.canvasBox__canvas-8ObeH{
-    margin-top: 50px;
+.gender__canvas-3bYsa{
+    margin-top: 30px;
     position: relative;
+    width: 750px;
     max-width: 100%;
+    box-shadow: 5px 5px 5px #ddd;
 }
-.canvasBox__footer-3AQl1{
-    width: 1100px;
+.gender__footer-3Cfzv{
+    width: 750px;
     max-width: 100%;
     font-size: 25px;
 }
-.canvasBox__footer-3AQl1 div:first-child{
+.gender__footMale-2O-qb{
     float: left;
     color: #897fef;
     padding-left: 10px;
 }
-.canvasBox__footer-3AQl1 div:last-child{
+.gender__footFemale-3QyM8{
     float: right;
     color: #82c99d;
     padding-right: 10px;

@@ -1,6 +1,3 @@
-
-//在build之前记得先把 .babelrc 里的 evn 参数删掉！！！！！！！
-
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -9,7 +6,7 @@ module.exports = {
     devtool: false,
     entry:  {
         bundle: __dirname + '/app/main.js',
-        vendor: ['react','react-dom','react-router']
+        vendor: ['react','react-dom']
     },
     output: {
         path: __dirname + "/build",

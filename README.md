@@ -1,1 +1,1 @@
-学习 react + canvas + svg
+react + canvas 实现的性别占比统计

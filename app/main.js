@@ -1,20 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {Router,Route,hashHistory,IndexRoute} from 'react-router'
-import Home from './components/Home'
-import SvgBox from './components/SvgBox'
-import CanvasBox from './components/CanvasBox'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Gender from './components/Gender';
 
 ReactDOM.render(
-    (
-        <Router history={hashHistory}>
-            <Route path="/" component={Home}>
-                <IndexRoute component={CanvasBox}/>
-                <Route path="/svg" component={SvgBox} />
-                <Route path="/canvas" component={CanvasBox} />
-            </Route>
-        </Router>
-    ),
+    <Gender />,
     document.getElementById('app')
 );
 
